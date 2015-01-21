@@ -1,0 +1,110 @@
+-----------------#RESULT#-----------------
+
+-------------<Main Informaiton>-----------
+
+Count : 1
+Response Variable : price
+Explaination Variable : time walk area bal kosuu floor tf year 
+Number of field : 8
+Number of data set: 167
+
+------------------------------------------
+
+----------<With Standardization>----------
+
+Constant Term = 4.4336e-16
+time = -0.392235
+walk = -0.02586
+area = 0.779529
+bal = -0.0914611
+kosuu = 0.0108353
+floor = 0.00717521
+tf = -0.0662168
+year = 0.104306
+
+------------------------------------------
+
+---------<Without standardization>--------
+
+Constant Term = -1048.42
+time = -71.4417
+walk = -12.294
+area = 73.9425
+bal = -35.9759
+kosuu = 0.134304
+floor = 6.75341
+tf = -50.4316
+year = 15.9129
+
+------------------------------------------
+
+------<Coefficient of Determination>------
+
+Degree of freedom unconsidered : 0.807207
+Degree of freedom considered : 0.797445
+
+------------------------------------------
+
+--------<T Value and Significance>--------
+
+time : Significant（t_value = -10.7872)
+walk : Unsignificant（t_value = -0.717154)
+area : Significant（t_value = 20.852)
+bal : Significant（t_value = -2.35922)
+kosuu : Unsignificant（t_value = 0.285331)
+floor : Unsignificant（t_value = 0.152638)
+tf : Unsignificant（t_value = -1.30317)
+year : Significant（t_value = 2.8231)
+
+------------------------------------------
+
+
+-------------<Main Informaiton>-----------
+
+Count : 2
+Response Variable : price
+Explaination Variable : time area bal year 
+Number of field : 4
+Number of data set: 167
+
+------------------------------------------
+
+----------<With Standardization>----------
+
+Constant Term = 4.31671e-16
+time = -0.389049
+area = 0.785052
+bal = -0.104398
+year = 0.0910842
+
+------------------------------------------
+
+---------<Without standardization>--------
+
+Constant Term = -1280.5
+time = -70.8614
+area = 74.4664
+bal = -41.0645
+year = 13.8958
+
+------------------------------------------
+
+------<Coefficient of Determination>------
+
+Degree of freedom unconsidered : 0.804068
+Degree of freedom considered : 0.79923
+
+------------------------------------------
+
+--------<T Value and Significance>--------
+
+time : Significant（t_value = -10.9017)
+area : Significant（t_value = 21.4227)
+bal : Significant（t_value = -2.84123)
+year : Significant（t_value = 2.55673)
+
+------------------------------------------
+
+
+Analysed by regression.cpp
+Copyright(C) 2014 Reona SEKINO All Right Reserved.
